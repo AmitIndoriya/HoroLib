@@ -279,6 +279,10 @@ public class Constants {
         path = constPath;
         CSystem.out(CSystem.INFO, "set Path = " + constPath);
     }
+    public void setConstPathNew(String constPath) {
+        path = constPath;
+        CSystem.out(CSystem.INFO, "set Path = " + constPath);
+    }
 
     public void setInputStream(InputStream is) {
         inputStream = is;
