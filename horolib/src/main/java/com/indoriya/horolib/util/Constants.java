@@ -264,7 +264,7 @@ public class Constants {
         try {
             if (inputStream != null) {
                 properties.load(inputStream);
-               // inputStream.close();
+                inputStream.close();
             } else {
                 LoadPropertiesOld(language);
             }
