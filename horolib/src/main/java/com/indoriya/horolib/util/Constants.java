@@ -269,7 +269,6 @@ public class Constants {
                 LoadPropertiesOld(language);
             }
         } catch (IOException var1) {
-            CSystem.out(CSystem.ERRO_R, "Methos Name : LoadProperties  Class Name : Constants");
             CSystem.out(CSystem.ERRO_R, "IOException  : " + var1.toString());
             throw new IOException(var1.toString());
         }
